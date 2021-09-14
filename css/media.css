@@ -1,0 +1,104 @@
+@media (max-width:1350px){
+    :root{
+        font-size: 15px;
+    }
+    .desk-phone-container > img{
+        width:100%;
+       
+    }
+
+    .build-community{
+        margin-left:1.5rem;
+       
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:1100px){
+    body{
+        margin: 0 2rem;
+        background:url("../images/bg-mobile.svg"), var(--Violet);
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        
+    }
+
+    
+    main{
+        flex-direction: column;
+        
+    }
+
+    .desk-phone-container{
+        flex-basis: 50%;
+    }
+
+    .build-community{
+        flex-basis: 50%;
+        margin: auto;
+       
+    }
+
+    footer{
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content; 
+           /* for centering */
+        position: relative;
+        left:50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:800px){
+  
+    main{
+        margin-bottom: 2rem;
+    }
+    .build-community > h2{
+        font-size:2rem;
+    }
+
+    .build-community{
+        text-align: center;
+        margin: 2rem auto;
+    }
+
+    .build-community> p{
+        font-size:.9rem;
+    }
+
+    .register{
+        width:80%;
+        margin-top: .5rem;
+    }
+    .attribution{
+        display:none;
+    }
+
+}
+
+/* I wanna cry */
+
+@media (max-width:450px){
+
+    header{
+        height:2.2rem;
+    }
+
+    .build-community > h2{
+        font-size:1.6rem;
+    }
+    
+}
